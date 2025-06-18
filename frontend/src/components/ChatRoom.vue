@@ -97,10 +97,10 @@ input {
   color: #3d246c;
   font-weight: 500;
 }
-input:focus {
-  outline: none;
+input:focus-visible {
   border-color: #f953c6;
   background: #fff0f6;
+  box-shadow: 0 0 0 2px #f953c6;
 }
 button {
   padding: 0.4rem 1.2rem;
